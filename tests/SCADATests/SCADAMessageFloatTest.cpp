@@ -6,9 +6,9 @@
  */
 
 #include "SCADAMessageFloatTest.h"
-#include "../SCADAMessages/SCADAEventMessageFloat.h"
-#include "../Utils.h"
-#include "../GlobalConst.h"
+#include "../../math/SCADAEvents/SCADAMessages/SCADAEventMessageFloat.h"
+#include "../../math/SCADAEvents/Utils.h"
+#include "../../math/SCADAEvents/GlobalConst.h"
 
 namespace SCADAEventsTests
 {

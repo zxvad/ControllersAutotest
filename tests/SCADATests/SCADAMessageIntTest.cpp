@@ -6,8 +6,8 @@
  */
 
 #include "SCADAMessageIntTest.h"
-#include "../SCADAMessages/SCADAEventMessageInt.h"
-#include "../GlobalConst.h"
+#include "../../math/SCADAEvents/SCADAMessages/SCADAEventMessageInt.h"
+#include "../../math/SCADAEvents/GlobalConst.h"
 #include <string.h>
 
 namespace SCADAEventsTests

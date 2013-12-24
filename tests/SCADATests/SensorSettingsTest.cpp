@@ -6,8 +6,8 @@
  */
 
 #include "SensorSettingsTest.h"
-#include "../Sensors/SensorSettings.h"
-#include "../Utils.h"
+#include "../../math/SCADAEvents/Sensors/SensorSettings.h"
+#include "../../math/SCADAEvents/Utils.h"
 
 namespace SensorsTest
 {
