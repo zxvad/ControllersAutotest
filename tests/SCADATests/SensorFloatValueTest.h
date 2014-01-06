@@ -10,8 +10,6 @@
 
 #include <cppunit/TestFixture.h>
 #include <cppunit/extensions/HelperMacros.h>
-#include "../Sensors/SensorFloatValue.h"
-#include "../Utils.h"
 
 namespace SensorsTest
 {
