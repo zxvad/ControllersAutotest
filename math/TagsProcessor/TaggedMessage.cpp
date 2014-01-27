@@ -7,7 +7,7 @@
 
 #include "TaggedMessage.h"
 
-namespace TagsProcessor
+namespace TagsProcessorSystem
 {
 
 TaggedMessage::TaggedMessage()

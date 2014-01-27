@@ -10,7 +10,7 @@
 
 #include <string>
 
-namespace TagsProcessor
+namespace TagsProcessorSystem
 {
 
 class RawData

@@ -7,7 +7,7 @@
 
 #include "RawData.h"
 
-namespace TagsProcessor
+namespace TagsProcessorSystem
 {
 
 RawData::RawData()

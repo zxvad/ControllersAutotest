@@ -8,7 +8,7 @@
 #ifndef TAGGEDMESSAGE_H_
 #define TAGGEDMESSAGE_H_
 
-namespace TagsProcessor
+namespace TagsProcessorSystem
 {
 
 class TaggedMessage
