@@ -16,16 +16,16 @@ namespace TagsProcessorTesting
 
 class RawDataTest: public CppUnit::TestFixture
 {
-	CPPUNIT_TEST_SUITE(RawDataTest);
-	CPPUNIT_TEST(CreateTest);
-	CPPUNIT_TEST_SUITE_END();
+    CPPUNIT_TEST_SUITE(RawDataTest);
+    CPPUNIT_TEST(CreateTest);
+    CPPUNIT_TEST_SUITE_END();
 public:
-	RawDataTest(){};
-	void setUp() {};
-	void tearDown() {};
+    RawDataTest(){}
+    void setUp() {}
+    void tearDown() {}
 
 protected:
-	void CreateTest();
+    void CreateTest();
 };
 
 } /* namespace TagsProcessorTest */

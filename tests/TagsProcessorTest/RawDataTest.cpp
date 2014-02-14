@@ -10,15 +10,8 @@
 namespace TagsProcessorTesting
 {
 
-RawDataTest::RawDataTest()
+void RawDataTest::CreateTest()
 {
-	// TODO Auto-generated constructor stub
-
-}
-
-RawDataTest::~RawDataTest()
-{
-	// TODO Auto-generated destructor stub
 }
 
 } /* namespace TagsProcessorTest */

@@ -10,15 +10,8 @@
 namespace TagsProcessorTesting
 {
 
-TaggedMessageTest::TaggedMessageTest()
+void TaggedMessageTest::CreateTest()
 {
-	// TODO Auto-generated constructor stub
-
-}
-
-TaggedMessageTest::~TaggedMessageTest()
-{
-	// TODO Auto-generated destructor stub
 }
 
 } /* namespace TagsProcessorTest */

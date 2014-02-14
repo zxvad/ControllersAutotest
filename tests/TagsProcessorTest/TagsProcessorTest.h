@@ -10,22 +10,23 @@
 
 #include <cppunit/TestFixture.h>
 #include <cppunit/extensions/HelperMacros.h>
+#include "TaggedMessageTest.h"
 
 namespace TagsProcessorTesting
 {
 
 class TagsProcessorTest: public CppUnit::TestFixture
 {
-	CPPUNIT_TEST_SUITE(TaggedMessageTest);
-	CPPUNIT_TEST(CreateTest);
-	CPPUNIT_TEST_SUITE_END();
+    CPPUNIT_TEST_SUITE(TaggedMessageTest);
+    CPPUNIT_TEST(CreateTest);
+    CPPUNIT_TEST_SUITE_END();
 public:
-	TagsProcessorTest(){};
-	void setUp() {};
-	void tearDown() {};
+    TagsProcessorTest(){}
+    void setUp() {}
+    void tearDown() {}
 
 protected:
-	void CreateTest();
+    void CreateTest();
 };
 
 } /* namespace TagsProcessorTesting */

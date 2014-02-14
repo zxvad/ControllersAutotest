@@ -10,15 +10,4 @@
 namespace TagsProcessorTesting
 {
 
-TagsProcessorTest::TagsProcessorTest()
-{
-	// TODO Auto-generated constructor stub
-
-}
-
-TagsProcessorTest::~TagsProcessorTest()
-{
-	// TODO Auto-generated destructor stub
-}
-
 } /* namespace TagsProcessorTesting */

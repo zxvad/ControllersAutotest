@@ -16,16 +16,16 @@ namespace TagsProcessorTesting
 
 class TaggedMessageTest: public CppUnit::TestFixture
 {
-	CPPUNIT_TEST_SUITE(TaggedMessageTest);
-	CPPUNIT_TEST(CreateTest);
-	CPPUNIT_TEST_SUITE_END();
+    CPPUNIT_TEST_SUITE(TaggedMessageTest);
+    CPPUNIT_TEST(CreateTest);
+    CPPUNIT_TEST_SUITE_END();
 public:
-	TaggedMessageTest(){};
-	void setUp() {};
-	void tearDown() {};
+    TaggedMessageTest(){}
+    void setUp() {}
+    void tearDown() {}
 
-protected:
-	void CreateTest();
+public:
+    void CreateTest();
 };
 
 } /* namespace TagsProcessorTest */
