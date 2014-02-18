@@ -63,7 +63,8 @@ SOURCES += main.cpp\
     ../../tests/SCADATests/SensorFloatSettingsTest.cpp \
     ../../tests/SCADATests/SCADAMessageTest.cpp \
     ../../tests/SCADATests/SCADAMessageIntTest.cpp \
-    ../../tests/SCADATests/SCADAMessageFloatTest.cpp
+    ../../tests/SCADATests/SCADAMessageFloatTest.cpp \
+    testscontroller.cpp
 
 HEADERS  += mainwindow.h \
     ../../math/AutotestController/autotestcontroller.h \
@@ -91,7 +92,8 @@ HEADERS  += mainwindow.h \
     ../../tests/SCADATests/SensorFloatSettingsTest.h \
     ../../tests/SCADATests/SCADAMessageTest.h \
     ../../tests/SCADATests/SCADAMessageIntTest.h \
-    ../../tests/SCADATests/SCADAMessageFloatTest.h
+    ../../tests/SCADATests/SCADAMessageFloatTest.h \
+    testscontroller.h
 
 FORMS    += mainwindow.ui
 
