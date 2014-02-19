@@ -16,17 +16,15 @@ namespace SCADAEventsTests
 
 class SCADAMessageTest  : public CppUnit::TestFixture
 {
-	CPPUNIT_TEST_SUITE(SCADAMessageTest);
-	CPPUNIT_TEST(CreateTest);
-	CPPUNIT_TEST_SUITE_END();
+    CPPUNIT_TEST_SUITE(SCADAMessageTest);
+    CPPUNIT_TEST(CreateTest);
+    CPPUNIT_TEST_SUITE_END();
 
 public:
-	SCADAMessageTest() {};
-	void setUp() {};
-	void tearDown() {};
-
-protected:
-	void CreateTest();
+    SCADAMessageTest() {}
+    void setUp() {}
+    void tearDown() {}
+    void CreateTest();
 };
 
 } /* namespace SCADAEventsTests */

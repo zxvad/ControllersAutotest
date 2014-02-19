@@ -9,7 +9,6 @@ public:
     explicit TestsController(QObject *parent = 0);
     QStringList runTests(const QString &logFileName = "");
     
-
 signals:
     void newLogLineAdded(const QString &logLine);
 };

@@ -1,4 +1,6 @@
 #include "testscontroller.h"
+#include "../../tests/SCADATests/SCADAMessageTest.h"
+#include <QStringList>
 
 TestsController::TestsController(QObject *parent) :
     QObject(parent)
@@ -18,4 +20,7 @@ TestsController::TestsController(QObject *parent) :
   */
 QStringList TestsController::runTests(const QString &logFileName)
 {
+    SCADAEventsTests::SCADAMessageTest *smt = new SCADAEventsTests::SCADAMessageTest();
+    smt->CreateTest();
+    return QStringList();
 }

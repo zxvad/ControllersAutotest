@@ -16,21 +16,21 @@ namespace SCADAEventsTests
 
 void SCADAEventsTests::SCADAMessageTest::CreateTest()
 {
-	using namespace SCADAEvents;
-	char tagName[] = "testTag";
-	DateTime dt;
-	UrgentValue urgent = SCADAEvents::Warning;
-	SCADAEventMessage *target = new SCADAEventMessage(tagName, dt, urgent);
+    using namespace SCADAEvents;
+    char tagName[] = "testTag";
+    DateTime dt;
+    UrgentValue urgent = SCADAEvents::Warning;
+    SCADAEventMessage *target = new SCADAEventMessage(tagName, dt, urgent);
 
-	char actualTagName[GlobalConst::MAX_TAG_LENGTH];
-	Utils::strlcpy(actualTagName, target->getTagName(), GlobalConst::MAX_TAG_LENGTH);
-	CPPUNIT_ASSERT(strncmp(tagName, actualTagName, GlobalConst::MAX_TAG_LENGTH) == 0);
-	CPPUNIT_ASSERT(target->getDate() == dt);
-	CPPUNIT_ASSERT(target->getUrgentValue() == urgent);
+    char actualTagName[GlobalConst::MAX_TAG_LENGTH];
+    Utils::strlcpy(actualTagName, target->getTagName(), GlobalConst::MAX_TAG_LENGTH);
+    CPPUNIT_ASSERT(strncmp(tagName, actualTagName, GlobalConst::MAX_TAG_LENGTH) == 0);
+    CPPUNIT_ASSERT(target->getDate() == dt);
+    CPPUNIT_ASSERT(target->getUrgentValue() == urgent);
 
-	delete target;
+    delete target;
 }
 }
 
 
- /* namespace SCADAEventsTests */
+/* namespace SCADAEventsTests */
