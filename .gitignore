@@ -1,1 +1,8 @@
 *.pro.user
+*.fodg#
+math/OPCClient/Debug/*
+math/SCADAEvents/Debug/*
+math/TagsProcessor/Debug/*
+tests/SCADATests/Debug/*
+tests/TagsProcessorTest/Debug/*
+qt_prj/ControllersAutotestQt-build-*
