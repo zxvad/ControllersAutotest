@@ -12,13 +12,13 @@ namespace OPCClient
 
 ServerParams::ServerParams()
 {
-	// TODO Auto-generated constructor stub
-
+	setAddress("");
+	setPort(0);
 }
 
 ServerParams::~ServerParams()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 std::string ServerParams::getAddress() const
@@ -38,6 +38,7 @@ uint ServerParams::getPort() const
 
 void ServerParams::setPort(uint port)
 {
-	m_port = port;}
+	m_port = port;
+}
 
 } /* namespace OPCClient */

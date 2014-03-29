@@ -10,10 +10,9 @@
 namespace OPCClient
 {
 
-OPCClient::OPCClient((*newDataReceived)(const TagsProcessorSystem::RawData rd))
+OPCClient::OPCClient(NewDataReceivedCallback newDataReceived)
 {
-	// TODO Auto-generated constructor stub
-
+	m_onNewDataReceived = newDataReceived;
 }
 
 OPCClient::~OPCClient()
