@@ -24,7 +24,11 @@ public:
 private:
 	char *m_tag;
 	char *m_msg;
+	uint m_tagLen;
 	uint m_msgLen;
+
+	void resetTag();
+	void resetMsg();
 };
 
 } /* namespace TagsProcessor */
