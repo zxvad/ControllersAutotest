@@ -6,19 +6,19 @@
  */
 
 #include "RawData.h"
+#include <cstring>
 
 namespace TagsProcessorSystem
 {
 
 RawData::RawData()
 {
-	// TODO Auto-generated constructor stub
-
+	resetBody();
 }
 
 RawData::~RawData()
 {
-	// TODO Auto-generated destructor stub
+	resetBody();
 }
 
 int RawData::getId() const
@@ -38,6 +38,33 @@ std::string RawData::getOpcDescription() const
 
 void RawData::setOpcDescription(std::string opcDescription)
 {
-	m_opcDescription = opcDescription;}
+	m_opcDescription = opcDescription;
+}
 
-} /* namespace TagsProcessorTesting */
+
+void TagsProcessorSystem::RawData::setBody(const char* body, const uint length)
+{
+	resetBody();
+
+	m_body = new char[length];
+	m_bodyLength = length;
+
+	strncpy(m_body,body,length);
+}
+
+uint TagsProcessorSystem::RawData::getBody(char* body, const uint maxLength)
+{
+	uint actualLength = std::min(maxLength, m_bodyLength);
+	strncpy(body, m_body, actualLength);
+	return actualLength;
+}
+
+void RawData::resetBody()
+{
+	if (m_body != NULL){
+		delete [] m_body;
+		m_body = NULL;
+		m_bodyLength = 0;
+	}
+}
+}/* namespace TagsProcessorTesting */

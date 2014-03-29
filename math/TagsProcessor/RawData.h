@@ -28,6 +28,11 @@ public:
 private:
 	int m_id;
 	std::string m_opcDescription;
+	uint m_bodyLength;
+	char *m_body;
+
+	void resetBody();
+
 };
 
 } /* namespace TagsProcessorTesting */
