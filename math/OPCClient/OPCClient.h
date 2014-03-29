@@ -14,17 +14,18 @@
 namespace OPCClient
 {
 
+typedef void (*NewDataReceivedCallback)(const TagsProcessorSystem::RawData rd);
+
 class OPCClient
 {
 public:
-	OPCClient((*newDataReceived)(const TagsProcessorSystem::RawData rd));
+	OPCClient(NewDataReceivedCallback);
 	virtual ~OPCClient();
 	void connectToServer(const ServerParams sp);
 
 private:
-
-
 	void pingLoop();
+	NewDataReceivedCallback m_onNewDataReceived;
 };
 
 } /* namespace OPCClient */
