@@ -13,6 +13,7 @@ namespace Sensors
 ValveSensor::ValveSensor(const char* tagName, const float value):
 		SensorFloatValue(tagName, value)
 {
+	m_state = ValveState::UNDEFINED;
 }
 
 ValveSensor::~ValveSensor()
@@ -22,19 +23,22 @@ ValveSensor::~ValveSensor()
 
 void ValveSensor::beginOpening()
 {
+	m_state = ValveState::OPENING;
 }
 
 void ValveSensor::beginClosing()
 {
+	m_state = ValveState::CLOSING;
 }
 
 void ValveSensor::stopCurrentOperation()
 {
+	m_state = ValveState::STOPPED;
 }
 
 float ValveSensor::getCurrentOpeningPercent()
 {
-	return 0;
+	return getValue();
 }
 
 void ValveSensor::ecuCrashed()

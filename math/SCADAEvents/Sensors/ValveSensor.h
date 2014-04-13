@@ -24,6 +24,10 @@ public:
 	void stopCurrentOperation();
 	float getCurrentOpeningPercent();
 	void ecuCrashed();
+
+private:
+	typedef enum {INVALID = 0, UNDEFINED, STOPPED, OPENING, OPEN, CLOSING, CLOSED} ValveState;
+	ValveState m_state;
 };
 
 } /* namespace Sensors */
