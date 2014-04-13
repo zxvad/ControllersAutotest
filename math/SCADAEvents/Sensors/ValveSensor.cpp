@@ -18,7 +18,7 @@ ValveSensor::ValveSensor(const char* tagName, const float value):
 
 ValveSensor::~ValveSensor()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 void ValveSensor::beginOpening()

@@ -18,7 +18,7 @@ TagsProcessor::TagsProcessor()
 
 TagsProcessor::~TagsProcessor()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 } /* namespace TagsProcessorSystem */

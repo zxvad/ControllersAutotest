@@ -17,7 +17,7 @@ TemperatureSensor::TemperatureSensor(const char* tagName, const float value):
 
 TemperatureSensor::~TemperatureSensor()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 } /* namespace Sensors */

@@ -18,7 +18,7 @@ GateSensor::GateSensor(const char* tagName, const float value):
 
 GateSensor::~GateSensor()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 void GateSensor::beginOpening()

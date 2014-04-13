@@ -17,7 +17,7 @@ OPCClient::OPCClient(NewDataReceivedCallback newDataReceived)
 
 OPCClient::~OPCClient()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 } /* namespace OPCClient */

@@ -31,7 +31,7 @@ SCADAEventMessage::SCADAEventMessage(const char *tagName,
 
 SCADAEventMessage::~SCADAEventMessage()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 DateTime SCADAEventMessage::getDate() const

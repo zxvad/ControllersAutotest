@@ -9,13 +9,12 @@
 
 DateTime::DateTime()
 {
-	// TODO Auto-generated constructor stub
 	m_time = time(NULL);
 }
 
 DateTime::~DateTime()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 bool DateTime::operator ==(const DateTime& other) const
