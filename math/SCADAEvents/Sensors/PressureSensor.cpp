@@ -17,7 +17,7 @@ PressureSensor::PressureSensor(const char* tagName, const float value):
 
 PressureSensor::~PressureSensor()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 } /* namespace Sensors */

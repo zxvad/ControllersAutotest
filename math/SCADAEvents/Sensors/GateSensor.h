@@ -24,6 +24,10 @@ public:
 	bool isOpen()const;
 	bool isClose()const;
 	void ecuCrashed();
+
+private:
+	typedef enum {INVALID = 0, UNDEFINED, STOPPED, OPENING, OPEN, CLOSING, CLOSED} GateState;
+	GateState m_state;
 };
 
 } /* namespace Sensors */

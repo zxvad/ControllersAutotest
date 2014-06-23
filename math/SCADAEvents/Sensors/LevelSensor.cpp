@@ -18,7 +18,7 @@ LevelSensor::LevelSensor(const char* tagName, const float value):
 
 LevelSensor::~LevelSensor()
 {
-	// TODO Auto-generated destructor stub
+
 }
 
 } /* namespace Sensors */

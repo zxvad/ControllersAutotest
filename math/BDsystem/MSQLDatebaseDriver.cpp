@@ -1,8 +1,8 @@
 /*
  * MSQLDatebaseDriver.cpp
  *
- *  Created on: 02 марта 2014 г.
- *      Author: Вилсер
+ *  Created on: 02 пїЅпїЅпїЅпїЅпїЅ 2014 пїЅ.
+ *      Author: пїЅпїЅпїЅпїЅпїЅпїЅ
  */
 
 #include "MSQLDatebaseDriver.h"
@@ -15,7 +15,7 @@ MSQLDatebaseDriver::MSQLDatebaseDriver() {
 }
 
 MSQLDatebaseDriver::~MSQLDatebaseDriver() {
-	// TODO Auto-generated destructor stub
+
 }
 
 } /* namespace BDdriver */
